@@ -24,4 +24,4 @@ jobs:
         run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
       - name: Build and push
-        run: docker build --push -t ${{ secrets.DOCKERHUB_USERNAME }}/sales-order-parser:latest -t ${{ secrets.DOCKERHUB_USERNAME }}/sales-order-parser:${{ steps.var.outputs.sha_short }} .
+        run: docker build --push -t ${{ secrets.DOCKERHUB_USERNAME }}/business-page:latest -t ${{ secrets.DOCKERHUB_USERNAME }}/business-page:${{ steps.var.outputs.sha_short }} .
