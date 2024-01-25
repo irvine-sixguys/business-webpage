@@ -10,6 +10,7 @@ const Header = () => {
         backgroundColor: "#FFFFFF",
         alignItems: "center",
         justifyContent: "center",
+        zIndex: 100
       }}
     >
       <h1

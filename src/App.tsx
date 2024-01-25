@@ -1,6 +1,7 @@
 import Header from "./components/header/header";
 import Start from "./components/start/start";
 import "./App.css";
+import First from "./components/first/first";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     >
       <Header />
       <Start />
+      <First />
     </div>
   );
 }

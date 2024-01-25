@@ -1,16 +1,15 @@
-import FlexDiv from "../flex/flexdiv";
 import GuySmilingImage from "../../assets/guy-smiling.jpg";
 const Start = () => {
   return (
     <div
       style={{
         position: "relative",
+        marginBottom: "-3.5px"
       }}
     >
       <img
         src={GuySmilingImage}
         style={{
-          position: "absolute",
           width: "100vw",
           height: "calc(100vh - 80px)",
           objectFit: "cover",
