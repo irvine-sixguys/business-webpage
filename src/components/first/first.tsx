@@ -58,8 +58,12 @@ const First = () => {
                     fontSize: "10px",
                     textDecoration: "underline",
                 }}>
-                    <h3>Read About Our Community Guidelines</h3>
-                    <h3>See all safety features</h3>
+                    <h3 style={{
+                        cursor: "pointer"
+                    }}>Read About Our Community Guidelines</h3>
+                    <h3 style={{
+                        cursor: "pointer"
+                    }}>See all safety features</h3>
                 </div>
                 </div>
             </div>
