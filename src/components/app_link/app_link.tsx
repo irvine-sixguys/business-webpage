@@ -40,27 +40,27 @@ const AppLink = () => {
                     justifyContent: "space-around"
                 }}>
                     <img src={SixGuysLogo} style={{
-                        width: "130px",
+                        width: "10%",
                         borderRadius: "10px"
                     }} />
                     <h2 style={{
                         color: "#b92629",
                         fontWeight: "400",
                         fontStyle: "italic",
-                        fontSize: "25px",
+                        fontSize: "2vw",
                     }}>Download the app</h2>
                     <div style={{
                         display: "flex",
-                        alignItems: "center"
+                        alignItems: "center",
                     }}>
                         <img src={AppStoreLogo} style={{
-                            width: "250px",
+                            width: "15vw",
                             cursor: "pointer",
                             marginRight: "15px"
                         }}/>
 
                         <img src={PlayStoreLogo} style={{
-                            width: "250px",
+                            width: "15vw",
                             cursor: "pointer"
                         }}/>
                     </div>
