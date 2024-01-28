@@ -5,6 +5,7 @@ import First from "./components/first/first";
 import Second from "./components/second/second";
 import AppLink from "./components/app_link/app_link";
 import Center from "./components/center/center";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Second />
       <AppLink />
       <Center />
+      <Footer />
     </div>
   );
 }
