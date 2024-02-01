@@ -23,6 +23,8 @@ const Footer = () => {
 
             if (context){
                 // 캔버스 크기를 레티나 디스플레이에 맞게 설정
+                const scaleFactor = window.devicePixelRatio;
+
                 if (!isScaled){
                     const scaleFactor = window.devicePixelRatio;
                     canvas.width = canvas.width * scaleFactor;
@@ -41,11 +43,11 @@ const Footer = () => {
                 // 곡선 그리기
                 context.beginPath();
                 context.moveTo(0, 20);
-                context.quadraticCurveTo(canvas.width / 4, 100, canvas.width / 2, 20);
+                context.quadraticCurveTo(canvas.width / (scaleFactor*2), 100, canvas.width / scaleFactor, 20);
 
                 // 라인 그리기
-                context.lineTo(canvas.width / 2, canvas.height / 2);
-                context.lineTo(0, canvas.height / 2);
+                context.lineTo(canvas.width / scaleFactor, canvas.height / scaleFactor);
+                context.lineTo(0, canvas.height / scaleFactor);
                 context.lineTo(0, 20);
 
                 context.closePath(); // 시작점과 끝점을 연결하여 닫힌 도형으로 만듭니다.
@@ -65,8 +67,9 @@ const Footer = () => {
 
             if (context){
                 // 캔버스 크기를 레티나 디스플레이에 맞게 설정
+                const scaleFactor = window.devicePixelRatio;
+            
                 if (!isScaled){
-                    const scaleFactor = window.devicePixelRatio;
                     canvas.width = canvas.width * scaleFactor;
                     canvas.height = canvas.height * scaleFactor;
                     context.scale(scaleFactor, scaleFactor);
@@ -83,11 +86,11 @@ const Footer = () => {
                 // 곡선 그리기
                 context.beginPath();
                 context.moveTo(0, 150);
-                context.quadraticCurveTo(canvas.width / 4, 50, canvas.width / 2, 150);
+                context.quadraticCurveTo(canvas.width / (scaleFactor*2), 50, canvas.width / scaleFactor, 150);
 
                 // 라인 그리기
-                context.lineTo(canvas.width / 2, canvas.height / 2);
-                context.lineTo(0, canvas.height / 2);
+                context.lineTo(canvas.width / scaleFactor, canvas.height / scaleFactor);
+                context.lineTo(0, canvas.height / scaleFactor);
                 context.lineTo(0, 150);
 
                 context.closePath(); // 시작점과 끝점을 연결하여 닫힌 도형으로 만듭니다.
