@@ -21,21 +21,21 @@ const Start = () => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-around",
-          width: "30vw",
-          height: "30vh",
+          width: "25vw",
+          height: "35vh",
           backgroundColor: "##ffffff",
           backdropFilter: "blur(20px)",
           borderRadius: "10px",
           position: "absolute",
           right: "5vw",
           top: "5vw",
-          padding: "80px 60px",
+          padding: "50px 60px",
         }}
       >
         <h1
           style={{
             color: "#ffffff",
-            fontSize: "40pt",
+            fontSize: "3vw",
             fontStyle: "italic",
             fontWeight: 800,
             // fontFamily:

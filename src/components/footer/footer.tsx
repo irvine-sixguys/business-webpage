@@ -113,7 +113,7 @@ const Footer = () => {
                 overflow: "hidden",
             }}>
                 <canvas ref={canvasTopRef} style={{
-                    width: "100%",
+                    width: "100vw",
                     height: "100%",
                     marginBottom: "-20px",
                     position: "absolute",
@@ -342,7 +342,7 @@ const Footer = () => {
                     overflow: "hidden",
                 }}>
                     <canvas ref={canvasBottomRef} style={{
-                        width: "100%",
+                        width: "100vw",
                         height: "100%",
                         position: "absolute",
                         top: "0px",
