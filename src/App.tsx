@@ -7,6 +7,7 @@ import AppLink from "./components/app_link/app_link";
 import Center from "./components/center/center";
 import Footer from "./components/footer/footer";
 import Kiosk from "./components/kiosk/kiosk";
+import Developer from "./components/developer/developer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <First />
       <Second />
       <Kiosk />
+      <Developer />
       <AppLink />
       <Center />
       <Footer />
