@@ -6,6 +6,7 @@ import Second from "./components/second/second";
 import AppLink from "./components/app_link/app_link";
 import Center from "./components/center/center";
 import Footer from "./components/footer/footer";
+import Kiosk from "./components/kiosk/kiosk";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Start />
       <First />
       <Second />
+      <Kiosk />
       <AppLink />
       <Center />
       <Footer />
