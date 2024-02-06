@@ -42,8 +42,8 @@ const Kiosk = () => {
                         <h1 style={{
                            fontWeight: "700",
                            fontSize: "40px" 
-                        }}>Device Authentication</h1>
-                        <p>We offer solutions that target different devices, such as kiosks. This allows users to complete the authentication process at their convenience and ensures compatibility between different devices. This technological convenience allows our customers to have an efficient and secure authentication experience.</p>
+                        }}>Various devices</h1>
+                        <p>We offer solutions that target different devices, such as kiosks. This technological convenience allows our customers to have an efficient and secure authentication experience.</p>
                     </div>
                 </div>
             </div>

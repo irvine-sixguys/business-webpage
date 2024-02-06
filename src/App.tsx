@@ -20,9 +20,9 @@ function App() {
     >
       <Header />
       <Start />
+      <Kiosk />
       <First />
       <Second />
-      <Kiosk />
       <Developer />
       <AppLink />
       <Center />

@@ -22,7 +22,7 @@ const Start = () => {
           flexDirection: "column",
           justifyContent: "space-around",
           width: "25vw",
-          height: "35vh",
+          height: "40vh",
           backgroundColor: "##ffffff",
           backdropFilter: "blur(20px)",
           borderRadius: "10px",
@@ -42,7 +42,7 @@ const Start = () => {
             //   "Roboto, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans','Liberation Sans', sans-serif",
           }}
         >
-          All-in-one ID Verification Platform
+          Multi-device <br/> All-in-one <br/> ID Verification Platform
         </h1>
         <button
           style={{
